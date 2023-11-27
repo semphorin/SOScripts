@@ -17,4 +17,5 @@ cd /home/SecurityOnion/salt/sensoroni/
 sudo cp defaults.yaml /opt/so/saltstack/default/salt/sensoroni/defaults.yaml
 sudo cp soc_sensoroni.yaml /opt/so/saltstack/default/salt/sensoroni/soc_sensoroni.yaml
 echo Copied new files.
+sudo so-sensoroni-restart --force
 echo Complete.
